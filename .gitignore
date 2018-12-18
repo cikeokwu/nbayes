@@ -1,3 +1,5 @@
+.idea
+
 # Prerequisites
 *.d
 
@@ -30,3 +32,5 @@
 *.exe
 *.out
 *.app
+
+

@@ -8,10 +8,10 @@ else
     endif
 endif
 
-all: bayes
+all: gendata
 
-bayes: bayes.cpp 
-	$(CC) -lm -o bayes bayes.cpp
+bayes: gendata.cpp
+	$(CC) -lm -o gendata gendata.cpp
 
 clean:
-	rm -rf *.o bayes *.dSYM
+	rm -rf *.o gendata *.dSYM
